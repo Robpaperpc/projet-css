@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "MinecraftFont";
+    src: url("./fonts/mc.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "zelda";
+    src: url("./fonts/zelda.woff") format("truetype");
+}
+
+
+body {
+    font-family: "DMSerif" Verdana;
+    background: url("./img/mcbg.jpg")center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+
+
+}
+
+
+
+
+
+
+h2 {
+    font-family: "zelda", sans-serif;
+    color: #ac5e30;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    margin: 0;
+    font-size: 3rem;
+    text-align: left;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 15px;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+
+    color: #27b382e1;
+    text-decoration: underline;
+    font-family: "MinecraftFont", sans-serif;
+    font-size: 60px;
+
+}
+
+main {
+    min-height: 500px;
+    width: 90%;
+    background: rgba(205, 201, 201, 0.821);
+    margin: 0 auto;
+    border: 2px solid rgb(15, 152, 129);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: -7px 7px 14px 5px #57aa88;
+    padding: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    display: flex;
+    width: 100%;
+}
+
+.flexbox,
+.grid,
+.absolute {
+    border: 2px solid rgb(20, 191, 168);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 50%;
+    flex-direction: column;
+
+
+}
+
+.absolute {
+    height: 200px;
+}
+
+.flexbox ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+
+}
+
+.flexbox li {
+    list-style: none;
+    height: 160px;
+    width: 300px;
+    margin: 10px;
+    background: rgb(201, 191, 191);
+    padding-top: 10px;
+    font-family: "MinecraftFont", sans-serif;
+
+}
+
+.li span {
+    margin-top: 500px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+    align-items: center;
+    margin-right: 25px;
+    justify-items: center;
+}
+
+.grid img {
+    width: 50%;
+    max-width: 200 px;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "i1 i2"
+        "ta ta"
+        "vi bt";
+}
+
+input,
+textarea {
+    margin: 5px;
+    border: 1px solid rgb(23, 124, 179);
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: zelda;
+    border-radius: 5px;
+}
+
+textarea {
+    grid-area: ta;
+    height: 40px;
+    resize: none;
+}
+
+#btn {
+    grid-area: bt;
+    cursor: pointer;
+    background-color: rgb(43, 155, 153);
+    transition: 0, 2scd;
+}
+
+#btn:hover {
+    background-color: aqua;
+}
+
+.absolute {
+    position: relative;
+}
+
+#circle1 {
+    height: 95px;
+    width: 95px;
+    background: rgb(210, 233, 242);
+    position: absolute;
+    border-radius: 150px;
+    top: 8px;
+    right: 8px;
+}
+
+#c2 {
+    height: 70px;
+    width: 70px;
+    background-image: url("./img/mm.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    top: 14px;
+    right: 110px;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+}
+
+
+
+h5 {
+
+    letter-spacing: 0px;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+
+    color: #de8346e1;
+
+    font-family: "MinecraftFont", sans-serif;
+    font-size: 12px;
+
+}
+
+p {
+    font-family: "MinecraftFont", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 20px;
+}
+
+#aoruss {
+    border-radius: 110px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 125px;
+    right: 90px;
+
+}
+
+#ajazz {
+    border-radius: 110px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 125px;
+    right: 6px;
+
+}
+
+.emoji {
+    margin-top: 75px;
+
+}
+
+#snowgolem {
+    width: 40%;
+}
+
+.emojii {
+    size: 100%;
+}
+
+.emojii {
+    margin-left: 500px;
+    size: ;
+}
+
+#droite {
+    border: 2px rgb(20, 191, 168);
+    width: 430px;
+    margin-left: 105%;
+    display: flex;
+    height: 50px;
+    margin-top: -800px;
+    border-radius: 10px;
+    padding: 260px;
+    max-width: 10x;
+
+
+}
+
+#droite h3 {
+    font-family: "zelda", sans-serif;
+    color: #ac5e30;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    margin-left: -240px;
+    font-size: 3rem;
+    margin-top: -250px;
+}
+
+#droite p {
+    margin-top: -190px;
+
+    text-align: left;
+}
+
+.droite h3 {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    width: auto;
+    display: inline-block;
+    max-width: 0px;
+    margin top: -50px;
+
+
+}
+
+.droite p {
+    text-align: left;
+    margin: left -11000px;
+
+}
+
+#maskk {
+    width: 300px;
+    margin-left: 275px;
+
+    margin-top: -50px;
+}
