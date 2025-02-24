@@ -192,6 +192,7 @@ textarea {
     border-radius: 150px;
     top: 8px;
     right: 8px;
+
 }
 
 #c2 {
@@ -333,3 +334,6 @@ p {
 
     margin-top: -50px;
 }
+
+a {
+    color: #ac5e30;
