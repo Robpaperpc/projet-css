@@ -273,7 +273,7 @@ p {
 
 .emojii {
     margin-left: 500px;
-    size: ;
+
 }
 
 #droite {
@@ -317,7 +317,7 @@ p {
     width: auto;
     display: inline-block;
     max-width: 0px;
-    margin top: -50px;
+    margin-top: -50px;
 
 
 }
@@ -337,3 +337,4 @@ p {
 
 a {
     color: #ac5e30;
+}
