@@ -113,7 +113,7 @@ main {
     height: 160px;
     width: 300px;
     margin: 10px;
-    background: rgb(201, 191, 191);
+    background: rgb(199, 188, 188);
     padding-top: 10px;
     font-family: "MinecraftFont", sans-serif;
 
@@ -277,8 +277,8 @@ p {
 }
 
 #droite {
-    border: 2px rgb(20, 191, 168);
-    width: 430px;
+    border: 2px #14bfa8;
+    width: 250 px;
     margin-left: 105%;
     display: flex;
     height: 50px;
@@ -305,7 +305,7 @@ p {
 
 #droite p {
     margin-top: -190px;
-
+    max-width: 60%;
     text-align: left;
 }
 
@@ -324,17 +324,91 @@ p {
 
 .droite p {
     text-align: left;
-    margin: left -11000px;
-
+    width: 500px;
 }
 
-#maskk {
-    width: 300px;
-    margin-left: 275px;
-
-    margin-top: -50px;
-}
 
 a {
     color: #ac5e30;
+}
+
+#footer-box {
+    min-height: 200px;
+    width: 90%;
+    background: rgba(31, 25, 25, 0.821);
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: -7px 7px 14px 5px #0f100f;
+    padding: 15px;
+    margin-top: 25px;
+    align-items: center;
+
+
+}
+
+#footer-text {
+    margin-top: -5px;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+
+    color: #ffffffe1;
+
+    font-family: "MinecraftFont",
+        sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+#logotiktok {
+    border-radius: 120px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: 725px;
+    margin-top: -30px;
+    object-fit: cover;
+}
+
+#inta {
+    border-radius: 150px;
+    width: 55px;
+    height: 37px;
+    display: block;
+    margin-left: 650px;
+    margin-top: -40px;
+    object-fit: cover;
+}
+
+#gmail {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-left: 795px;
+    margin-top: -37px;
+    object-fit: cover;
+}
+
+#e1 {
+    grid-area: bt;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: 0, 2scd;
+}
+
+#e1:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#setup {
+    width: 250px;
+    margin-left: 400px;
+    margin-top: -500px;
+    border-radius: 5px;
+    border: 2px solid #016a5c;
 }
