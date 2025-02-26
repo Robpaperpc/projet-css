@@ -56,19 +56,21 @@ h1 {
     text-decoration: underline;
     font-family: "MinecraftFont", sans-serif;
     font-size: 60px;
+    letter-spacing: 1px;
 
 }
 
 main {
-    min-height: 500px;
+    min-height: 1500px;
     width: 90%;
-    background: rgba(205, 201, 201, 0.821);
+    background: rgba(228, 205, 205, 0.821);
     margin: 0 auto;
     border: 2px solid rgb(15, 152, 129);
-    border-radius: 20px 20px 20px 20px;
     box-shadow: -7px 7px 14px 5px #57aa88;
     padding: 15px;
+    border-radius: 20px
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
@@ -116,6 +118,7 @@ main {
     background: rgb(199, 188, 188);
     padding-top: 10px;
     font-family: "MinecraftFont", sans-serif;
+    border-radius: 5px;
 
 }
 
@@ -279,7 +282,7 @@ p {
 #droite {
     border: 2px #14bfa8;
     width: 250 px;
-    margin-left: 105%;
+    margin-left: 102%;
     display: flex;
     height: 50px;
     margin-top: -800px;
@@ -312,18 +315,17 @@ p {
 .droite h3 {
     white-space: nowrap;
     margin: 0;
-    padding: 0px;
+    padding: -5px;
     box-sizing: border-box;
     width: auto;
     display: inline-block;
     max-width: 0px;
     margin-top: -50px;
 
-
 }
 
-.droite p {
-    text-align: left;
+#tex {
+    text-align: right;
     width: 500px;
 }
 
@@ -407,8 +409,90 @@ a {
 
 #setup {
     width: 250px;
-    margin-left: 400px;
+    margin-left: 415px;
     margin-top: -500px;
     border-radius: 5px;
     border: 2px solid #016a5c;
+}
+
+#desc {
+    color: rgb(0, 0, 0);
+    border: #016a5c solid 2px;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    left: 275px;
+    text-align: center;
+    padding: 4px;
+}
+
+#aj {
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    top: 154px;
+    left: -15px;
+    text-align: center;
+    padding: 4px;
+    border: 2px solid #016a5c;
+    display: inline-block;
+}
+
+#vinted {
+    border: 2px solid rgb(20, 191, 168);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -400px;
+    margin-left: 815px;
+    width: 44%;
+    flex-direction: column;
+    height: 377px;
+}
+
+#vinted h3 {
+    font-family: "zelda", sans-serif;
+    color: #ac5e30;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+#vinted p {
+    color: rgb(0, 0, 0);
+    margin-top: -42px;
+    position: absolute;
+}
+
+#firstpc {
+    width: 250px;
+    margin-top: 70px;
+    border-radius: 5px;
+    border: 2px solid #016a5c;
+}
+
+#fullpc {
+    width: 240px;
+    margin-top: 70px;
+    border-radius: 5px;
+    border: 2px solid #016a5c;
+    margin-left: 165px;
+
+}
+
+#onee {
+    border: 2px solid #016a5c;
+    border-radius: 5px;
+    right: 280px;
+    bottom: 90px;
+}
+
+#two {
+    border: 2px solid #016a5c;
+    border-radius: 5px;
+    right: 280px;
+    bottom: -14px;
 }
