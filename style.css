@@ -115,11 +115,12 @@ main {
     height: 160px;
     width: 300px;
     margin: 10px;
-    background: rgb(199, 188, 188);
+    background: rgb(214, 211, 209);
     padding-top: 10px;
     font-family: "MinecraftFont", sans-serif;
     border-radius: 5px;
-
+    border: 2px solid #016a5c;
+    padding: 3px;
 }
 
 .li span {
@@ -239,6 +240,7 @@ p {
     color: rgb(0, 0, 0);
     text-align: left;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 #aoruss {
@@ -280,15 +282,15 @@ p {
 }
 
 #droite {
-    border: 2px #14bfa8;
+
     width: 250 px;
     margin-left: 102%;
     display: flex;
-    height: 50px;
-    margin-top: -800px;
+
+    margin-top: -860px;
     border-radius: 10px;
     padding: 260px;
-    max-width: 10x;
+
 
 
 }
@@ -442,7 +444,7 @@ a {
     border: 2px solid rgb(20, 191, 168);
     border-radius: 10px;
     padding: 10px;
-    margin-top: -400px;
+    margin-top: -390px;
     margin-left: 815px;
     width: 44%;
     flex-direction: column;
@@ -484,15 +486,74 @@ a {
 }
 
 #onee {
-    border: 2px solid #016a5c;
-    border-radius: 5px;
     right: 280px;
     bottom: 90px;
 }
 
 #two {
-    border: 2px solid #016a5c;
-    border-radius: 5px;
     right: 280px;
     bottom: -14px;
+}
+
+#how {
+    width: 50%;
+    margin-top: -15px
+}
+
+#how h3 {
+    font-family: "zelda", sans-serif;
+    color: #ac5e30;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    font-size: 3rem;
+    margin-top: 1px;
+
+}
+
+#how p {
+    margin-top: -50px;
+}
+
+#monitor {
+    width: 240px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #016a5c;
+    margin-left: 10px;
+}
+
+#sc {
+    max-width: 20%;
+    border: 2px solid #016a5c;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 275px;
+    margin-top: -328px;
+}
+
+#vinte {
+    margin-left: 53%;
+    border: 2px solid rgb(20, 191, 168);
+    width: 45%;
+    margin-top: -447px;
+    border-radius: 10px;
+}
+
+#vinte h3 {
+    font-family: "zelda", sans-serif;
+    color: #ac5e30;
+    text-shadow:
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px 2px 0 black,
+        2px 2px 0 black;
+    font-size: 3rem;
+    margin-top: -7px;
+}
+
+#vinte p {
+    margin-top: -45px;
 }
