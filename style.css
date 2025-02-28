@@ -522,7 +522,7 @@ a {
 
 #footer-box {
     min-height: 200px;
-    width: 90%;
+    width: 92%;
     background: rgba(31, 25, 25, 0.821);
     margin: 0 auto;
     border: 2px solid rgb(255, 255, 255);
@@ -531,9 +531,35 @@ a {
     padding: 15px;
     margin-top: 25px;
     align-items: center;
-
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+    flex-direction: column;
+    justify-content: center;
 
 }
+
+#icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#footer-box a {
+    display: inline-block;
+
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 120px;
+}
+
 
 #footer-text {
     margin-top: -5px;
@@ -550,42 +576,4 @@ a {
         sans-serif;
     font-size: 45px;
     letter-spacing: 1px;
-}
-
-#logotiktok {
-    border-radius: 120px;
-    width: 40px;
-    height: 40px;
-    display: block;
-    margin-left: 725px;
-    margin-top: -30px;
-    object-fit: cover;
-    padding: 0;
-}
-
-#inta {
-    border-radius: 150px;
-    width: 55px;
-    height: 37px;
-    display: block;
-    margin-left: 650px;
-    margin-top: -40px;
-    object-fit: cover;
-}
-
-#gmail {
-    border-radius: 50%;
-    height: 40px;
-    display: block;
-    margin-left: 795px;
-    margin-top: -37px;
-
-}
-
-#vin {
-    border-radius: 50%;
-    height: 40px;
-    display: block;
-    margin-left: 400px;
-    margin-top: -39px;
 }
